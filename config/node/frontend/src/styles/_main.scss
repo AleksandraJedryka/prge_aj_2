@@ -1,0 +1,11 @@
+.app{
+  background: $background;
+  color: $secondary-color;
+  height: 100vh;
+  font-family: 'lato';
+
+  @include flex-center;
+  .home_button{
+   width: fit-content;
+   margin-top: 2vh;
+ }}
