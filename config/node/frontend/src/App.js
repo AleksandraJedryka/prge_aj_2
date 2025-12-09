@@ -1,9 +1,10 @@
 import './styles/style.scss';
 import routes from "./routes/Router";
-import{Suspense,suspense} from "react";
-import Home from "./pages/Home";
+import{Suspense} from "react";
+
 import {RouterProvider} from "react-router/dom";
 import {CircularProgress} from "@mui/material"
+
 function App() {
   return (
     <div className="app">
@@ -11,8 +12,10 @@ function App() {
             fallback={
             <CircularProgress/>
             }
-        <RouterProvider router={routes}/>
-    </Suspense>
+        >
+            <RouterProvider router={routes}/>
+
+        </Suspense>
     </div>
   );
 }
