@@ -1,8 +1,8 @@
-import {createBrowserRouter} from "react-router";
+import {createHashRouter} from "react-router";
 import {Home, About, Map, Services, ListOfItems} from './LazyImports';
 
 
-const routes = createBrowserRouter(
+const routes = createHashRouter(
     [
         {
             path: '/',
