@@ -1,4 +1,4 @@
-x-enviroment:
+x-environment:
   #DB
   - &env-postgres-db POSTGRES_DB=${POSTGRES_DB}
   - &env-postgres-user POSTGRES_USER=$(POSTGRES_USER)
