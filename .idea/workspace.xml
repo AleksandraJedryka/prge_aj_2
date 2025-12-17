@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="fix: 11">
+    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="fix: 12">
       <change beforePath="$PROJECT_DIR$/.github/workflows/shr_a.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/shr_a.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -353,7 +351,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765963363403</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix: 12">
+      <option name="closed" value="true" />
+      <created>1765963936582</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1765963936582</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,6 +400,7 @@
     <MESSAGE value="fix: 9" />
     <MESSAGE value="fix: 10" />
     <MESSAGE value="fix: 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 11" />
+    <MESSAGE value="fix: 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 12" />
   </component>
 </project>
