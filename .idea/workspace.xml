@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/shr_a.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/polska.shp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/geoserver/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compse/docker-compose-prge-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-local.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/postgis/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/postgis/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/postgis/init-scripts/10-iniit.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docker/postgis/init-scripts/10-iniit.sql" afterDir="false" />
-    </list>
+    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="fix: 3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="env-test" />
+        <entry key="$PROJECT_DIR$" value="fix-env-test" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,7 +85,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "fix-env-test",
+    "git-widget-placeholder": "env-test",
     "last_opened_file_path": "C:/Users/aleks/OneDrive/Pulpit/Studia/semestr_5/projekt_prge_aj/docker-compose",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -280,7 +269,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765955374924</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="fix: 2">
+      <option name="closed" value="true" />
+      <created>1765961237595</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1765961237595</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix: 3">
+      <option name="closed" value="true" />
+      <created>1765961513107</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1765961513107</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +316,8 @@
     <MESSAGE value="fix: fixed code,added files,created token" />
     <MESSAGE value="fix: added file without token" />
     <MESSAGE value="fix: 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 1" />
+    <MESSAGE value="fix: 2" />
+    <MESSAGE value="fix: 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 3" />
   </component>
 </project>
