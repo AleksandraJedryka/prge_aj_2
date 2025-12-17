@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="fix: 6">
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" afterDir="false" />
+    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="fix: 8">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/shr_a.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/shr_a.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,7 +311,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765962069589</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fix: 7">
+      <option name="closed" value="true" />
+      <created>1765962406002</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1765962406002</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix: 8">
+      <option name="closed" value="true" />
+      <created>1765962584125</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1765962584125</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,6 +363,8 @@
     <MESSAGE value="fix: 4" />
     <MESSAGE value="fix: 5" />
     <MESSAGE value="fix: 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 6" />
+    <MESSAGE value="fix: 7" />
+    <MESSAGE value="fix: 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 8" />
   </component>
 </project>
