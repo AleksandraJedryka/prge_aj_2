@@ -35,5 +35,6 @@ services:
     volumes:
       - ../.tmp/data-${ENV_NAME}:/opt/geoserver_data
 
+
 volumes: #Pozwala kontenerowi widzieć co siędzieje na moim dysku twardym komputera
   postgis-local-data:

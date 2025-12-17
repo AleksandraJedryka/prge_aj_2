@@ -31,5 +31,15 @@ services:
       - ..:/tmp/data:/opt/geoserver_data
       - ..:/.tmp/geoserver-config:/opt/geoserver/data_dir
 
+  fastapi:
+    build:
+      context: ..
+      dockerfile: docker/fastapi/Dockerfile
+    image: 'prge_2025_fastapi'
+    container_name: 'prge_2025_fastapi'
+    ports:
+      - 10000:10000
+
+
 volumes:
   postgis-local-data:

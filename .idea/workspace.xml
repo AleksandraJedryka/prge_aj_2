@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="fix: 14" />
+    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="fix: 15">
+      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/fastapi/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/fastapi/app/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/fastapi/app/routes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/fastapi/app/routes/static_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/fastapi/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/fastapi/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-local.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,9 +25,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Dockerfile" />
         <option value="SQL File" />
         <option value="GitHub Workflow" />
+        <option value="Dockerfile" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -86,7 +98,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "env-test",
-    "last_opened_file_path": "C:/Users/aleks/OneDrive/Pulpit/Studia/semestr_5/projekt_prge_aj/docker-compose",
+    "last_opened_file_path": "C:/Users/aleks/OneDrive/Pulpit/Studia/semestr_5/projekt_prge_aj/config/fastapi/app",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -110,6 +122,9 @@
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\node" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\node" />
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\fastapi\app" />
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\fastapi\app\routes" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj" />
     </key>
   </component>
@@ -140,6 +155,8 @@
       <workItem from="1765927373300" duration="423000" />
       <workItem from="1765928090207" duration="560000" />
       <workItem from="1765954902308" duration="530000" />
+      <workItem from="1765970292019" duration="280000" />
+      <workItem from="1765970745089" duration="1042000" />
     </task>
     <task id="LOCAL-00001" summary="fix: added files from another project and created branches">
       <option name="closed" value="true" />
@@ -381,7 +398,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765964689999</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fix: 15">
+      <option name="closed" value="true" />
+      <created>1765965080444</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1765965080444</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: fixed every file,rewrote code" />
     <MESSAGE value="fix: fixed file added missing code" />
     <MESSAGE value="feat: git pages with gh actions and deployment" />
     <MESSAGE value="feat: update workflow" />
@@ -424,6 +448,7 @@
     <MESSAGE value="fix: 12" />
     <MESSAGE value="fix: 13" />
     <MESSAGE value="fix: 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 14" />
+    <MESSAGE value="fix: 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 15" />
   </component>
 </project>
