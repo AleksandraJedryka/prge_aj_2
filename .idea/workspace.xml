@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/shr_a.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/polska.shp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/geoserver/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compse/docker-compose-prge-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-local.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/postgis/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/postgis/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/postgis/init-scripts/10-iniit.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docker/postgis/init-scripts/10-iniit.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Dockerfile" />
+        <option value="SQL File" />
+        <option value="GitHub Workflow" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="env-test" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AleksandraJedryka&quot;
+  }
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOQlCnj863zRZg&quot;,
+        &quot;number&quot;: 1
+      },
+      &quot;lastSeen&quot;: 1765274570000
+    }
+  ]
+}</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="fix: fixed a few files" />
+        <option name="rewordedMessage" value="fix: 1&#10;&#10;&#10;fix: added file without token&#10;&#10;&#10;fix: fixed code,added files,created token&#10;&#10;&#10;fix: fixed a few files" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="43d7812350b9a38b2055e4404f11abac94c880bb" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AleksandraJedryka/prge_aj_2.git&quot;,
+    &quot;accountId&quot;: &quot;f3a40b1a-954c-4401-a3b4-7a4fb2016ae6&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;AleksandraJedryka&quot;,
+    &quot;repository&quot;: &quot;prge_aj_2&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="36Ztt8i2l3Da80qKkavuCyevjAR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "fix-env-test",
+    "last_opened_file_path": "C:/Users/aleks/OneDrive/Pulpit/Studia/semestr_5/projekt_prge_aj/docker-compose",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\docker-compose" />
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\docker" />
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj" />
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\data" />
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\node" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.27397.106" />
+        <option value="bundled-python-sdk-4e2b1448bda8-9a97661f3031-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.27397.106" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="" />
+      <created>1765226132966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765226132966</updated>
+      <workItem from="1765226134313" duration="2885000" />
+      <workItem from="1765242772696" duration="79000" />
+      <workItem from="1765274320497" duration="115000" />
+      <workItem from="1765274458824" duration="251000" />
+      <workItem from="1765283659289" duration="5167000" />
+      <workItem from="1765350333083" duration="11725000" />
+      <workItem from="1765364435847" duration="1322000" />
+      <workItem from="1765897949234" duration="5267000" />
+      <workItem from="1765907767226" duration="15188000" />
+      <workItem from="1765927373300" duration="423000" />
+      <workItem from="1765928090207" duration="560000" />
+      <workItem from="1765954902308" duration="530000" />
+    </task>
+    <task id="LOCAL-00001" summary="fix: added files from another project and created branches">
+      <option name="closed" value="true" />
+      <created>1765240713329</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765240713329</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix: fixed every file,rewrote code">
+      <option name="closed" value="true" />
+      <created>1765242499277</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765242499277</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix: fixed file added missing code">
+      <option name="closed" value="true" />
+      <created>1765274359939</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1765274359939</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: git pages with gh actions and deployment">
+      <option name="closed" value="true" />
+      <created>1765285657685</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765285657685</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: update workflow">
+      <option name="closed" value="true" />
+      <created>1765285972469</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765285972469</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix: update">
+      <option name="closed" value="true" />
+      <created>1765286272859</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765286272859</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: update">
+      <option name="closed" value="true" />
+      <created>1765286711964</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765286711964</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: update">
+      <option name="closed" value="true" />
+      <created>1765287231805</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1765287231805</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix: createHashrouter instead of Hashrouter">
+      <option name="closed" value="true" />
+      <created>1765350742422</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765350742422</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: added map">
+      <option name="closed" value="true" />
+      <created>1765355338571</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765355338571</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: added db and file configuration">
+      <option name="closed" value="true" />
+      <created>1765362167884</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765362167884</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fix: fixed a few files">
+      <option name="closed" value="true" />
+      <created>1765910400584</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765910400584</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fix: fixed code,added files,created token">
+      <option name="closed" value="true" />
+      <created>1765921023771</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1765921023771</updated>
+    </task>
+    <task id="LOCAL-00014" summary="fix: added file without token">
+      <option name="closed" value="true" />
+      <created>1765921783735</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1765921783735</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix: 1">
+      <option name="closed" value="true" />
+      <created>1765924849637</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1765924849637</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix: 1">
+      <option name="closed" value="true" />
+      <created>1765955374924</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1765955374924</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix: added files from another project and created branches" />
+    <MESSAGE value="fix: fixed every file,rewrote code" />
+    <MESSAGE value="fix: fixed file added missing code" />
+    <MESSAGE value="feat: git pages with gh actions and deployment" />
+    <MESSAGE value="feat: update workflow" />
+    <MESSAGE value="fix: update" />
+    <MESSAGE value="fix: createHashrouter instead of Hashrouter" />
+    <MESSAGE value="feat: added map" />
+    <MESSAGE value="feat: added db and file configuration" />
+    <MESSAGE value="fix: fixed a few files" />
+    <MESSAGE value="fix: fixed code,added files,created token" />
+    <MESSAGE value="fix: added file without token" />
+    <MESSAGE value="fix: 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 1" />
+  </component>
+</project>
