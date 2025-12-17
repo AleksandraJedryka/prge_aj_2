@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="fix: 9">
+    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="fix: 11">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/shr_a.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/shr_a.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -335,7 +337,23 @@
       <option name="project" value="LOCAL" />
       <updated>1765962860225</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="fix: 10">
+      <option name="closed" value="true" />
+      <created>1765963114100</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1765963114100</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix: 11">
+      <option name="closed" value="true" />
+      <created>1765963363403</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1765963363403</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +392,8 @@
     <MESSAGE value="fix: 7" />
     <MESSAGE value="fix: 8" />
     <MESSAGE value="fix: 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 9" />
+    <MESSAGE value="fix: 10" />
+    <MESSAGE value="fix: 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 11" />
   </component>
 </project>
