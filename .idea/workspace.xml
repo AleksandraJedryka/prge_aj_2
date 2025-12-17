@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="fix: 13" />
+    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="fix: 14" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -373,7 +373,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765964520597</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fix: 14">
+      <option name="closed" value="true" />
+      <created>1765964689999</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1765964689999</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +399,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: added files from another project and created branches" />
     <MESSAGE value="fix: fixed every file,rewrote code" />
     <MESSAGE value="fix: fixed file added missing code" />
     <MESSAGE value="feat: git pages with gh actions and deployment" />
@@ -416,6 +423,7 @@
     <MESSAGE value="fix: 11" />
     <MESSAGE value="fix: 12" />
     <MESSAGE value="fix: 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 13" />
+    <MESSAGE value="fix: 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 14" />
   </component>
 </project>
