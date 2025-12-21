@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="fix: 15">
-      <change afterPath="$PROJECT_DIR$/config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/fastapi/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/fastapi/app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/fastapi/app/routes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/fastapi/app/routes/static_content.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/fastapi/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/fastapi/requirements.txt" afterDir="false" />
+    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="feat: working container but not fully updated">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/fastapi/app/routers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/fastapi/app/routers/db_insert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/fastapi/app/routers/static_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/fastapi/app/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-local.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/fastapi/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/fastapi/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/fastapi/app/routes/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/fastapi/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/fastapi/app/routes/static_content.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +97,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "env-test",
     "last_opened_file_path": "C:/Users/aleks/OneDrive/Pulpit/Studia/semestr_5/projekt_prge_aj/config/fastapi/app",
@@ -115,16 +117,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\fastapi\app" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\docker-compose" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\docker" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\data" />
-      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\node" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\node" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\fastapi\app" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\fastapi\app\routes" />
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\node" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj" />
     </key>
   </component>
@@ -156,7 +158,9 @@
       <workItem from="1765928090207" duration="560000" />
       <workItem from="1765954902308" duration="530000" />
       <workItem from="1765970292019" duration="280000" />
-      <workItem from="1765970745089" duration="1042000" />
+      <workItem from="1765970745089" duration="2239000" />
+      <workItem from="1765976352210" duration="838000" />
+      <workItem from="1766322540671" duration="5661000" />
     </task>
     <task id="LOCAL-00001" summary="fix: added files from another project and created branches">
       <option name="closed" value="true" />
@@ -406,7 +410,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765965080444</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="feat: working container but not fully updated">
+      <option name="closed" value="true" />
+      <created>1765971838048</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1765971838048</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +436,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: fixed file added missing code" />
     <MESSAGE value="feat: git pages with gh actions and deployment" />
     <MESSAGE value="feat: update workflow" />
     <MESSAGE value="fix: update" />
@@ -449,6 +460,7 @@
     <MESSAGE value="fix: 13" />
     <MESSAGE value="fix: 14" />
     <MESSAGE value="fix: 15" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: 15" />
+    <MESSAGE value="feat: working container but not fully updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: working container but not fully updated" />
   </component>
 </project>
