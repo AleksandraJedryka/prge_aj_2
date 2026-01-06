@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="feat: working">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="feat: homework container fastapi">
       <change beforePath="$PROJECT_DIR$/.github/workflows/shr_a.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/shr_a.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-local.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,7 +161,11 @@
       <workItem from="1767465299690" duration="7956000" />
       <workItem from="1767554307339" duration="4378000" />
       <workItem from="1767577571118" duration="646000" />
-      <workItem from="1767619294888" duration="1549000" />
+      <workItem from="1767619294888" duration="4283000" />
+      <workItem from="1767626065895" duration="50000" />
+      <workItem from="1767626156954" duration="3775000" />
+      <workItem from="1767704283394" duration="2056000" />
+      <workItem from="1767726147260" duration="833000" />
     </task>
     <task id="LOCAL-00001" summary="fix: added files from another project and created branches">
       <option name="closed" value="true" />
@@ -430,7 +431,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766329181582</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="feat: homework container fastapi">
+      <option name="closed" value="true" />
+      <created>1767622130366</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1767622130366</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: update workflow" />
     <MESSAGE value="fix: update" />
     <MESSAGE value="fix: createHashrouter instead of Hashrouter" />
     <MESSAGE value="feat: added map" />
@@ -473,6 +481,7 @@
     <MESSAGE value="fix: 15" />
     <MESSAGE value="feat: working container but not fully updated" />
     <MESSAGE value="feat: working" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: working" />
+    <MESSAGE value="feat: homework container fastapi" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: homework container fastapi" />
   </component>
 </project>

@@ -4,6 +4,7 @@ on:
     branches:
       - env-qua
       - main
+      - env-test
 
 permissions:
   contents: read

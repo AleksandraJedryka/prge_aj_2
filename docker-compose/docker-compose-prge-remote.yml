@@ -45,5 +45,6 @@ services:
 
 
 
+
 volumes: #Pozwala kontenerowi widzieć co siędzieje na moim dysku twardym komputera
   postgis-local-data:
