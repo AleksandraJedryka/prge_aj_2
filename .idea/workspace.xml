@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="feat: homework container fastapi">
+    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/config/fastapi/app/routers/dynamic_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/node/frontend/src/components/UserCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/node/frontend/src/pages/NewUser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/shr_a.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/shr_a.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/fastapi/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/fastapi/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/fastapi/app/routers/db_insert.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/fastapi/app/routers/db_insert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/node/frontend/src/pages/ListOfItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/src/pages/ListOfItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/node/frontend/src/pages/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/src/pages/Services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/node/frontend/src/routes/LazyImports.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/src/routes/LazyImports.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/node/frontend/src/routes/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/src/routes/Router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-local.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,18 +27,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SQL File" />
         <option value="GitHub Workflow" />
         <option value="Dockerfile" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="fix-env-test" />
+        <entry key="$PROJECT_DIR$" value="env-qua" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,6 +96,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose/docker-compose-prge-local.yml.fastapi: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -121,6 +132,32 @@
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\node" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose/docker-compose-prge-local.yml.fastapi: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="fastapi" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose/docker-compose-prge-local.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose/docker-compose-prge-local.yml.fastapi: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -165,7 +202,16 @@
       <workItem from="1767626065895" duration="50000" />
       <workItem from="1767626156954" duration="3775000" />
       <workItem from="1767704283394" duration="2056000" />
-      <workItem from="1767726147260" duration="833000" />
+      <workItem from="1767726147260" duration="2813000" />
+      <workItem from="1767965957101" duration="293000" />
+      <workItem from="1768055696105" duration="652000" />
+      <workItem from="1768210452598" duration="1223000" />
+      <workItem from="1768214652297" duration="11477000" />
+      <workItem from="1768231344107" duration="3962000" />
+      <workItem from="1768240069405" duration="296000" />
+      <workItem from="1768246779442" duration="378000" />
+      <workItem from="1768251633707" duration="1396000" />
+      <workItem from="1768296890896" duration="655000" />
     </task>
     <task id="LOCAL-00001" summary="fix: added files from another project and created branches">
       <option name="closed" value="true" />
@@ -439,7 +485,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767622130366</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="fix">
+      <option name="closed" value="true" />
+      <created>1767727181408</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1767727181408</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: update" />
     <MESSAGE value="fix: createHashrouter instead of Hashrouter" />
     <MESSAGE value="feat: added map" />
     <MESSAGE value="feat: added db and file configuration" />
@@ -482,6 +535,7 @@
     <MESSAGE value="feat: working container but not fully updated" />
     <MESSAGE value="feat: working" />
     <MESSAGE value="feat: homework container fastapi" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: homework container fastapi" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>
