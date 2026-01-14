@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="fix">
-      <change afterPath="$PROJECT_DIR$/config/fastapi/app/routers/dynamic_content.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/node/frontend/src/components/UserCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/node/frontend/src/pages/NewUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/shr_a.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/shr_a.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="feat: added list of users and form, added buttons">
+      <change afterPath="$PROJECT_DIR$/docker/node/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/fastapi/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/fastapi/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/fastapi/app/routers/db_insert.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/fastapi/app/routers/db_insert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/node/frontend/src/pages/ListOfItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/src/pages/ListOfItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/node/frontend/src/pages/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/src/pages/Services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/node/frontend/src/routes/LazyImports.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/src/routes/LazyImports.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/node/frontend/src/routes/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/src/routes/Router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/node/frontend/src/components/MapComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/src/components/MapComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-local.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +20,9 @@
       <list>
         <option value="SQL File" />
         <option value="GitHub Workflow" />
-        <option value="Dockerfile" />
         <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -97,6 +88,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Docker.docker-compose/docker-compose-prge-local.yml.fastapi: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose/docker-compose-prge-local.yml.geoserver: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -127,13 +119,14 @@
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\docker\node" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\fastapi\app" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\fastapi\app\routes" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\node" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.docker-compose/docker-compose-prge-local.yml.geoserver: Compose Deployment">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -153,8 +146,22 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose/docker-compose-prge-local.yml.geoserver: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="geoserver" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose/docker-compose-prge-local.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose/docker-compose-prge-local.yml.geoserver: Compose Deployment" />
         <item itemvalue="Docker.docker-compose/docker-compose-prge-local.yml.fastapi: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -211,7 +218,11 @@
       <workItem from="1768240069405" duration="296000" />
       <workItem from="1768246779442" duration="378000" />
       <workItem from="1768251633707" duration="1396000" />
-      <workItem from="1768296890896" duration="655000" />
+      <workItem from="1768296890896" duration="1791000" />
+      <workItem from="1768325173537" duration="212000" />
+      <workItem from="1768387391766" duration="3161000" />
+      <workItem from="1768390593720" duration="2052000" />
+      <workItem from="1768413469360" duration="3379000" />
     </task>
     <task id="LOCAL-00001" summary="fix: added files from another project and created branches">
       <option name="closed" value="true" />
@@ -493,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767727181408</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="feat: added list of users and form, added buttons">
+      <option name="closed" value="true" />
+      <created>1768298253483</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1768298253483</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +530,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: createHashrouter instead of Hashrouter" />
     <MESSAGE value="feat: added map" />
     <MESSAGE value="feat: added db and file configuration" />
     <MESSAGE value="fix: fixed a few files" />
@@ -536,6 +554,7 @@
     <MESSAGE value="feat: working" />
     <MESSAGE value="feat: homework container fastapi" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="feat: added list of users and form, added buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added list of users and form, added buttons" />
   </component>
 </project>

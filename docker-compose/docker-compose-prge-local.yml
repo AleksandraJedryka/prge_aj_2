@@ -28,8 +28,8 @@ services:
     ports:
       - "9000:8080"
     volumes:
-      - ..:/tmp/data:/opt/geoserver_data
-      - ..:/.tmp/geoserver-config:/opt/geoserver/data_dir
+      - ../.tmp/data:/opt/geoserver_data
+      - ../.tmp/geoserver-config:/opt/geoserver/data_dir
 
   fastapi:
     build:
@@ -43,6 +43,25 @@ services:
       - *env-postgres-password
     ports:
       - "10000:10000"
+
+
+  node:
+    build:
+      context: ..
+      dockerfile: docker/node/Dockerfile
+    image: 'prge_2025_node'
+    container_name: 'prege_2025_node'
+    volumes:
+     - ../config/node/frontend/src:/app/src
+     - ../config/node/frontend/package.json:/app/package.json
+     - ../config/node/frontend/package-lock.json:/app/package-lock.json
+    ports:
+    - 3000:3000
+    environment:
+    - CHOCKIDAR_USEPOLLING=true
+    - WATCHPACK_POLLING=true
+
+
 
 
 volumes:
