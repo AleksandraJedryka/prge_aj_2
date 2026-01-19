@@ -15,7 +15,7 @@ services:
       - *env-postgres-user
       - *env-postgres-password
     ports:
-      - 5444:5432
+      - "5444:5432"
     volumes:
       - postgis-local-data:/var/lib/postgresql/data
 
@@ -28,8 +28,8 @@ services:
     ports:
       - "9000:8080"
     volumes:
-      - ..:/tmp/data:/opt/geoserver_data
-      - ..:/.tmp/geoserver-config:/opt/geoserver/data_dir
+      - ../.tmp/data:/opt/geoserver_data
+      - ../.tmp/geoserver-config:/opt/geoserver/data_dir
 
   fastapi:
     build:
@@ -37,8 +37,39 @@ services:
       dockerfile: docker/fastapi/Dockerfile
     image: 'prge_2025_fastapi'
     container_name: 'prge_2025_fastapi'
+    environment:
+      - *env-postgres-db
+      - *env-postgres-user
+      - *env-postgres-password
     ports:
-      - 10000:10000
+      - "10000:10000"
+
+
+  node:
+    build:
+      context: ..
+      dockerfile: docker/node/Dockerfile
+    image: 'prge_2025_node'
+    container_name: 'prege_2025_node'
+    volumes:
+     - ../config/node/frontend/src:/app/src
+     - ../config/node/frontend/package.json:/app/package.json
+     - ../config/node/frontend/package-lock.json:/app/package-lock.json
+    ports:
+    - 3000:3000
+    environment:
+    - CHOCKIDAR_USEPOLLING=true
+    - WATCHPACK_POLLING=true
+
+  nginx:
+    build:
+      context: ..
+      dockerfile: docker/nginx/Dockerfile_local
+    image: 'prge_2025_nginx'
+    container_name: 'prge_2025_nginx'
+    ports:
+      - 8090:80
+
 
 
 volumes:

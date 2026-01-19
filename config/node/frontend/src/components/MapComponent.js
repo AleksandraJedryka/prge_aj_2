@@ -5,6 +5,7 @@ import OSM from 'ol/source/OSM';
 import View from 'ol/View';
 import {useGeographic} from "ol/proj";
 import "ol/ol.css";
+import {TileWMS} from 'ol/source';
 
 function MapComponent(props) {
     const mapRef= useRef(null);
@@ -17,6 +18,28 @@ function MapComponent(props) {
           layers: [
               new TileLayer({
                   source: new OSM(),
+              }),
+              new TileLayer({
+                  source: new TileWMS({
+                      url:'http://localhost:9000/geoserver/prge/wms?',
+                      params: {
+                          "LAYERS" : 'prge:polska',
+                          "TITLED" : true
+                      },
+                      serverType: 'geoserver',
+                      transition: 0
+                  })
+              }),
+              new TileLayer({
+                  source: new TileWMS({
+                      url:'http://localhost:9000/geoserver/ne/wms?',
+                      params: {
+                          "LAYERS" : 'ne:countries',
+                          "TITLED" : true
+                      },
+                      serverType: 'geoserver',
+                      transition: 0
+                  })
               })
           ],
           view: new View({
