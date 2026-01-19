@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="feat: added list of users and form, added buttons">
-      <change afterPath="$PROJECT_DIR$/docker/node/Dockerfile" afterDir="false" />
+    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="feat: add new docker to the architecture and add new tileWMS to map window">
+      <change afterPath="$PROJECT_DIR$/config/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile_local" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/node/frontend/src/components/MapComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/src/components/MapComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/node/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-local.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +79,9 @@
     &quot;repository&quot;: &quot;prge_aj_2&quot;
   }
 }</component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/config/node/frontend/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -222,7 +227,10 @@
       <workItem from="1768325173537" duration="212000" />
       <workItem from="1768387391766" duration="3161000" />
       <workItem from="1768390593720" duration="2052000" />
-      <workItem from="1768413469360" duration="3379000" />
+      <workItem from="1768413469360" duration="3718000" />
+      <workItem from="1768477649900" duration="15000" />
+      <workItem from="1768736212785" duration="93000" />
+      <workItem from="1768820147359" duration="6817000" />
     </task>
     <task id="LOCAL-00001" summary="fix: added files from another project and created branches">
       <option name="closed" value="true" />
@@ -512,7 +520,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768298253483</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="feat: add new docker to the architecture and add new tileWMS to map window">
+      <option name="closed" value="true" />
+      <created>1768417030351</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1768417030351</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat: added map" />
     <MESSAGE value="feat: added db and file configuration" />
     <MESSAGE value="fix: fixed a few files" />
     <MESSAGE value="fix: fixed code,added files,created token" />
@@ -555,6 +570,7 @@
     <MESSAGE value="feat: homework container fastapi" />
     <MESSAGE value="fix" />
     <MESSAGE value="feat: added list of users and form, added buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added list of users and form, added buttons" />
+    <MESSAGE value="feat: add new docker to the architecture and add new tileWMS to map window" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add new docker to the architecture and add new tileWMS to map window" />
   </component>
 </project>
