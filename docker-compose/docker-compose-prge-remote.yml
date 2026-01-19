@@ -43,6 +43,14 @@ services:
     ports:
       - ${FASTAPI_PORT}:10000
 
+  nginx:
+    build:
+      context: ..
+      dockerfile: docker/nginx/Dockerfile_remote
+    image: 'prge_2025_nginx'
+    container_name: prge_2025_nginx-${ENV_NAME}
+    ports:
+      - 8085:80
 
 
 
@@ -50,3 +58,4 @@ services:
 
 volumes: #Pozwala kontenerowi widzieć co siędzieje na moim dysku twardym komputera
   postgis-local-data:
+
