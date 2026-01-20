@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="feat: add new docker to the architecture nginx">
-      <change afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile_remote" afterDir="false" />
+    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="feat: added nginx remote">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose/docker-compose-prge-remote.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/fastapi/app/routers/db_insert.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/fastapi/app/routers/db_insert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/node/frontend/src/components/MapComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/src/components/MapComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/fastapi/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docker/fastapi/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +20,9 @@
       <list>
         <option value="SQL File" />
         <option value="GitHub Workflow" />
-        <option value="Python Script" />
-        <option value="JavaScript File" />
         <option value="Dockerfile" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -227,7 +228,9 @@
       <workItem from="1768413469360" duration="3718000" />
       <workItem from="1768477649900" duration="15000" />
       <workItem from="1768736212785" duration="93000" />
-      <workItem from="1768820147359" duration="8088000" />
+      <workItem from="1768820147359" duration="9178000" />
+      <workItem from="1768899416636" duration="4500000" />
+      <workItem from="1768918285877" duration="1505000" />
     </task>
     <task id="LOCAL-00001" summary="fix: added files from another project and created branches">
       <option name="closed" value="true" />
@@ -533,7 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768828748849</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="feat: added nginx remote">
+      <option name="closed" value="true" />
+      <created>1768829808289</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1768829808289</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +562,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: fixed a few files" />
     <MESSAGE value="fix: fixed code,added files,created token" />
     <MESSAGE value="fix: added file without token" />
     <MESSAGE value="fix: 1" />
@@ -576,6 +586,7 @@
     <MESSAGE value="feat: added list of users and form, added buttons" />
     <MESSAGE value="feat: add new docker to the architecture and add new tileWMS to map window" />
     <MESSAGE value="feat: add new docker to the architecture nginx" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add new docker to the architecture nginx" />
+    <MESSAGE value="feat: added nginx remote" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added nginx remote" />
   </component>
 </project>
