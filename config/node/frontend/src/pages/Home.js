@@ -10,7 +10,7 @@ function Home(props) {
     return (
         <div className='home'>
             <div className='home__left'>
-                <h1 className="home__title">GEOPORTAL</h1>
+                <h1 className="home__title">GEO<span style={{color: '#e74c3c'}}>PORTAL</span></h1>
                 <Typography className="home__subtitle" style={{  marginRight: '-24rem',fontWeight: 520, color: 'black'}}>
                     Geoportal tematyczny poświęcony uczelniom
                 </Typography>

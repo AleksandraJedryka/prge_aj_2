@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="feat: added markers on map to location of users">
-      <change afterPath="$PROJECT_DIR$/config/node/frontend/src/assets/ksiazka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/node/frontend/src/assets/pinezka.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/node/frontend/src/assets/polskaobrys.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/node/frontend/src/assets/uczelnia.png" afterDir="false" />
+    <list default="true" id="7e157428-c38a-4d97-8121-2bcd43fe32d6" name="Changes" comment="feat: added updated frontend to the main page">
+      <change afterPath="$PROJECT_DIR$/config/node/frontend/src/assets/aulauczelnia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/node/frontend/src/assets/mapa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/node/frontend/src/assets/pracownik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/node/frontend/src/assets/student.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/node/frontend/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/src/pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/node/frontend/src/pages/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/src/pages/Services.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/node/frontend/src/styles/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/config/node/frontend/src/styles/_main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,45 +92,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.docker-compose/docker-compose-prge-local.yml.fastapi: Compose Deployment.executor": "Run",
-    "Docker.docker-compose/docker-compose-prge-local.yml.geoserver: Compose Deployment.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "env-test",
-    "last_opened_file_path": "C:/Users/aleks/OneDrive/Pulpit/Studia/semestr_5/projekt_prge_aj/config/node/frontend/src/assets",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.docker-compose/docker-compose-prge-local.yml.fastapi: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose/docker-compose-prge-local.yml.geoserver: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;env-test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aleks/OneDrive/Pulpit/Studia/semestr_5/projekt_prge_aj/config/node/frontend/src/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\PyCharm 2025.2.4\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\node\frontend\src\assets" />
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\node\frontend\public" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\fastapi\app" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\docker-compose" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\docker" />
-      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\node\frontend\src\assets" />
+      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\node\frontend\public" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\docker\node" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\fastapi\app" />
       <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\fastapi\app\routes" />
-      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj\config\node" />
-      <recent name="C:\Users\aleks\OneDrive\Pulpit\Studia\semestr_5\projekt_prge_aj" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.docker-compose/docker-compose-prge-local.yml.geoserver: Compose Deployment">
@@ -234,7 +235,9 @@
       <workItem from="1768820147359" duration="9178000" />
       <workItem from="1768899416636" duration="4500000" />
       <workItem from="1768918285877" duration="1505000" />
-      <workItem from="1768935920194" duration="12583000" />
+      <workItem from="1768935920194" duration="12940000" />
+      <workItem from="1768990199717" duration="2484000" />
+      <workItem from="1769002270516" duration="155000" />
     </task>
     <task id="LOCAL-00001" summary="fix: added files from another project and created branches">
       <option name="closed" value="true" />
@@ -556,7 +559,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768936001773</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="feat: added updated frontend to the main page">
+      <option name="closed" value="true" />
+      <created>1768953892384</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1768953892384</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix: added file without token" />
     <MESSAGE value="fix: 1" />
     <MESSAGE value="fix: 2" />
     <MESSAGE value="fix: 3" />
@@ -599,6 +609,7 @@
     <MESSAGE value="feat: add new docker to the architecture nginx" />
     <MESSAGE value="feat: added nginx remote" />
     <MESSAGE value="feat: added markers on map to location of users" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: added markers on map to location of users" />
+    <MESSAGE value="feat: added updated frontend to the main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: added updated frontend to the main page" />
   </component>
 </project>
