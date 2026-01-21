@@ -37,8 +37,8 @@ function Home(props) {
                         <svg className="home__triangle" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
                             <defs>
                                 <linearGradient id="triangleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                                    <stop offset="10%" style={{stopColor: '#fdfdff', stopOpacity: 1}} />
-                                    <stop offset="100%" style={{stopColor: '#474545', stopOpacity: 1}} />
+                                    <stop offset="30%" style={{stopColor: '#ffffff', stopOpacity: 1}} />
+                                    <stop offset="95%" style={{stopColor: '#474545', stopOpacity: 1}} />
                                 </linearGradient>
                             </defs>
                             <polygon points="100,190 10,10 190,10" fill="url(#triangleGradient)" style={{pointerEvents: 'auto'}}/>

@@ -21,9 +21,9 @@ function MapComponent(props) {
               }),
               new TileLayer({
                   source: new TileWMS({
-                      url:'http://localhost:9000/geoserver/prge/wms?',
+                      url:'http://localhost:9000/geoserver/ne/wms?',
                       params: {
-                          "LAYERS" : 'prge:polska',
+                          "LAYERS" : 'ne:countries',
                           "TITLED" : true
                       },
                       serverType: 'geoserver',
@@ -32,9 +32,9 @@ function MapComponent(props) {
               }),
               new TileLayer({
                   source: new TileWMS({
-                      url:'http://localhost:9000/geoserver/ne/wms?',
+                      url:'http://localhost:9000/geoserver/prge/wms?',
                       params: {
-                          "LAYERS" : 'ne:countries',
+                          "LAYERS" : 'prge:polska',
                           "TITLED" : true
                       },
                       serverType: 'geoserver',
