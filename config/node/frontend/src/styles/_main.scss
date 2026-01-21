@@ -5,11 +5,180 @@
   font-family: 'lato';
 
   @include flex-center;
-  .home__button {
-    width: fit-content;
-    margin-top: 2vh
+}
+
+.home { 
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: white;
+  
+  &__left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  &__right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    padding-left: 0;
+    margin-top: 6rem;
+  }
+  
+  &__title {
+    font-size: 4.2rem;
+    font-weight: 700; 
+    margin: 0 0 2rem 0;
+    color: #1a1a1a;
+    letter-spacing: 0.1em;
+    text-align: center;
+  }
+  
+  &__subtitle {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 800;
+    transform: translateY(-30px);
+  }
+  
+  &__map-container {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4rem;
+    margin-left: 7rem;
+  }
+  
+  &__poland-map {
+    width: 100%;
+    height: auto;
+    border: none;
+    background: transparent;
+    mix-blend-mode: multiply;
+  }
+  
+  &__university-icon {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+  }
+  
+  &__pin-container {
+    margin-bottom: -15rem;
+  }
+  
+  &__pin {
+    width: 420px;
+    height: auto;
+    filter: drop-shadow(0 4px 8px rgba(231, 90, 124, 0.3));
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  &__book-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -17.5rem;
+  }
+  
+  &__book {
+    width: 400px;
+    height: auto;
+    filter: brightness(0) drop-shadow(0 4px 6px rgba(0, 0, 0, 0.15));
+  }
+  
+  &__triangle-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12rem 0 0 0;
+  }
+  
+  &__triangle-button {
+    position: relative;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    min-width: 0 !important;
+    border-radius: 0 !important;
+    transition: all 0.3s ease !important;
+    cursor: pointer !important;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+    
+    &:hover {
+      transform: translateY(-3px);
+      
+      .home__triangle {
+        filter: drop-shadow(0 6px 8px rgba(4, 2, 2, 0.981));
+      }
+    }
+  }
+  
+  &__triangle {
+    width: 340px;
+    height: auto;
+    color: #100a0a;
+    transition: filter 0.3s ease;
+    display: block;
+    position: relative;
+    z-index: 0;
+  }
+  
+  &__button-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.4rem;
+    font-weight: 540;
+    color: black;
+    z-index: 2;
+    pointer-events: none;
+  }
+    top: 35%;
+    left: 50%;
+    font-size: 2.4rem;
+    font-weight: 540;
+    color: black;
+    z-index: 10;
+    pointer-events: none;
+    font-family: 'lato';
+    letter-spacing: 0.1em;
   }
 
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 .MapComponent {
